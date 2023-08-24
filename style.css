@@ -7,17 +7,20 @@
 }
 
 body {
-    background-color: pink;
+    background-image: url('img/pexels.jpg');
+    background-size: cover;
 }
 
 h1 {
+    font-size: 30pt;
+    color: rgb(252, 102, 232);
     text-align: center;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.493);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.671);
     margin: 20px;
 }
 
 section {
-    background-color: white;
+    background-color: rgba(248, 153, 185, 0.829);
     width: 300px;    
     margin: auto;
     border-radius: 10px;
@@ -28,6 +31,7 @@ section {
 section > div > input {
     margin: 20px;
     font-size: 16pt;
+    border-radius: 5px;
 }
 
 div {
@@ -39,7 +43,7 @@ div > p {
 }
 
 footer {
-    background-color: white;
+    background-color: rgba(248, 153, 185, 0.877);
     text-align: center;
     margin-top: 30px;
 }
