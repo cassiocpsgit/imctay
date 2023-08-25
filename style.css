@@ -33,6 +33,7 @@ section > div > input {
     margin: 20px;
     font-size: 16pt;
     border-radius: 5px;
+    text-align: center;    
 }
 
 input#calc {
