@@ -46,7 +46,7 @@ div {
     padding: 5px;
 }
 
-div > p {
+div > label {
     font-size: 20pt;
     color: #422040;
     font-weight: bold ;
