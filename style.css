@@ -13,9 +13,9 @@ body {
 
 h1 {
     font-size: 30pt;
-    color: rgb(252, 102, 232);
+    color: #fcbad0;
     text-align: center;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.671);
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
     margin: 20px;
 }
 
@@ -34,12 +34,28 @@ section > div > input {
     border-radius: 5px;
 }
 
+input#calc {
+    padding: 5px;
+    color: #ce809a;
+    background-color: #422040;
+}
+
 div {
-    padding: 20px;
+    padding: 5px;
 }
 
 div > p {
     font-size: 20pt;
+    color: #422040;
+    font-weight: bold ;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+div#res {
+    font-size: 20pt;
+    color: #422040;
+    font-weight: bold ;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 footer {
