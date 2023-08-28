@@ -10,6 +10,8 @@ body {
     background-image: url('img/pexels.jpg');
     background-size: 100vh;
     background-size: 100vw;
+    background-repeat: no-repeat;
+    
 }
 
 h1 {
@@ -81,5 +83,5 @@ footer {
     background-color: rgba(248, 153, 185, 0.438);
     text-align: center;
     font-style: italic;
-    margin-top: 150px;
+    margin-top: 50px;
 }
