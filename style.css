@@ -57,7 +57,24 @@ div#res {
     font-size: 20pt;
     color: #422040;
     font-weight: bold ;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    color: #422040;    
+    border: 1px solid #422040;
+    padding: 5px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+p#fonte {
+    font-size: 9pt;
+    color: #422040;
+    font-style: italic;
 }
 
 footer {

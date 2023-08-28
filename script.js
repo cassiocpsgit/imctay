@@ -6,6 +6,6 @@ function calcular() {
     if (Number(peso.value.length) == 0 || Number(alt.value.length) == 0){
         window.alert('Digite os valores para calcular')
     } else {
-        res.innerHTML = `IMC = ${imc.toFixed(2)}Kg/m²`
+        res.innerHTML = `IMC = ${imc.toFixed(1)} Kg/m²`
     }
 }
