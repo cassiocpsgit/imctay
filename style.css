@@ -24,7 +24,8 @@ h1 {
 
 section {
     background-color: rgba(248, 153, 185, 0.829);
-    width: 300px;    
+    width: 300px;
+    padding: 15px;    
     margin: auto;
     border-radius: 10px;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.493);
@@ -40,7 +41,7 @@ section > div > input {
 
 input#calc {
     padding: 5px;
-    color: #ce809a;
+    color: #fcbad0;
     background-color: #422040;
 }
 
@@ -64,6 +65,7 @@ div#res {
 
 table {
     border-collapse: collapse;
+    margin: auto;
 }
 
 td, th {
@@ -77,6 +79,18 @@ p#fonte {
     font-size: 9pt;
     color: #422040;
     font-style: italic;
+}
+
+a {
+    background-color: #422040;
+    color: #fcbad0;    
+    border: 1px solid #422040;
+    padding: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.671);
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 footer {

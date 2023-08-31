@@ -2,7 +2,7 @@ function calcular() {
     let peso = document.getElementById('ipeso')
     let alt = document.getElementById('ialtu')
     let res = document.querySelector('div#res')
-    let idade = document.getElementById('idade')
+    let idade = document.getElementById('idade')    
     let age = Number(idade.value)
     let imc = Number(peso.value) / Number(alt.value ** 2)
     if (Number(peso.value.length) == 0 || Number(alt.value.length) == 0 || Number(idade.value.length) == 0){
