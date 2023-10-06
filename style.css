@@ -20,9 +20,6 @@ h1 {
     text-align: center;
     text-shadow: -5px -5px -5px rgb(0, 0, 0);
     margin: 20px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(0, 0, 0, 0.5);
-    
 }
 
 section {
